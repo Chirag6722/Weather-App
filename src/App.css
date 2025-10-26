@@ -1,0 +1,148 @@
+.app-root {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Material-UI overrides for light theme */
+.MuiCard-root {
+  background: var(--bg-card) !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: var(--shadow) !important;
+  overflow: hidden !important;
+}
+
+.MuiCardContent-root {
+  padding: 0 !important;
+}
+
+.MuiButton-root {
+  border-radius: 4px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  padding: 0.625rem 1.5rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.MuiButton-contained {
+  background: var(--accent-primary) !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.MuiButton-contained:hover {
+  opacity: 0.9 !important;
+  box-shadow: none !important;
+}
+
+.MuiTextField-root {
+  background: var(--bg-card);
+  border-radius: 4px;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 4px !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--border-color) !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #cccccc !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--accent-primary) !important;
+  border-width: 2px !important;
+}
+
+.MuiInputLabel-root {
+  color: var(--text-muted) !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: var(--accent-primary) !important;
+}
+
+.MuiInputBase-input {
+  color: var(--text-primary) !important;
+}
+
+.MuiIconButton-root {
+  transition: all 0.2s ease !important;
+  color: var(--text-secondary) !important;
+}
+
+.MuiIconButton-root:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+.MuiToggleButtonGroup-root {
+  background: var(--bg-card);
+  border-radius: 4px !important;
+  padding: 4px;
+  border: 1px solid var(--border-color);
+}
+
+.MuiToggleButton-root {
+  border: none !important;
+  border-radius: 2px !important;
+  color: var(--text-secondary) !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+.MuiToggleButton-root.Mui-selected {
+  background: var(--accent-primary) !important;
+  color: white !important;
+}
+
+.MuiToggleButton-root:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+.MuiAlert-root {
+  border-radius: 4px !important;
+}
+
+.MuiAlert-standardError {
+  background: #fee !important;
+  color: #c33 !important;
+  border: 1px solid #fcc !important;
+}
+
+.MuiCircularProgress-root {
+  color: var(--text-secondary) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-root {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-root {
+    padding: 0.75rem;
+  }
+  
+  .app-title {
+    font-size: 1.25rem;
+  }
+}
