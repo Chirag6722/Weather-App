@@ -5,7 +5,7 @@ A modern React weather application built with Material-UI that provides real-tim
 ## Features
 
 - **City Search**: Search for weather by city name
-- **Current Weather**: Temperature, humidity, wind speed, and more
+- **Current Weather**: Temperature, humidity, and more
 - **Responsive Design**: Works on desktop and mobile
 - **Fast Loading**: Built with Vite for optimal performance
 - **Modern UI**: Clean Material-UI design
