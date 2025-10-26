@@ -1,6 +1,6 @@
 # Weather App
 
-A modern React weather application built with Material-UI that provides real-time weather information for any city worldwide.
+A simple and responsive Weather App built with React and Vite. It allows users to search any city and view real-time weather details using an external weather API, featuring a clean Material UI design.
 
 ## Features
 
