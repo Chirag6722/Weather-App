@@ -21,9 +21,6 @@ A modern React weather application built with Material-UI that provides real-tim
    - Temperature (current, min, max)
    - Weather description
    - Humidity percentage
-   - Wind speed
-   - Visibility
-   - Atmospheric pressure
 
 ## Technologies Used
 
